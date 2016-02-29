@@ -4,7 +4,8 @@
   "description": "Pet project to play with React js",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node_modules/.bin/webpack-dev-server --progress",
+    "build": "NODE_ENV=production node_modules/.bin/webpack --config ./webpack.production.config.js --progress"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,18 @@
   },
   "homepage": "https://github.com/auz34/form-builder#readme",
   "devDependencies": {
-    "webpack": "^1.12.14"
+    "babel-core": "^6.5.2",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-react-transform": "^2.0.0",
+    "babel-preset-es2015": "^6.5.0",
+    "babel-preset-react": "^6.5.0",
+    "html-webpack-plugin": "^2.9.0",
+    "react-transform-hmr": "^1.0.2",
+    "webpack": "^1.12.14",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7"
   }
 }
