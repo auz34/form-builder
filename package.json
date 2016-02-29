@@ -1,0 +1,22 @@
+{
+  "name": "form-builder",
+  "version": "1.0.0",
+  "description": "Pet project to play with React js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/auz34/form-builder.git"
+  },
+  "author": "Andrew Zavgorodniy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/auz34/form-builder/issues"
+  },
+  "homepage": "https://github.com/auz34/form-builder#readme",
+  "devDependencies": {
+    "webpack": "^1.12.14"
+  }
+}
